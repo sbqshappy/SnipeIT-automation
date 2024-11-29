@@ -43,7 +43,7 @@ In Visual Studio, click on `Build > Build Solution` (or press `Ctrl+Shift+B`).
 ### Step 3: Run the Tests
 
 1. Open the `Test Explorer` window (`Test > Test Explorer`).
-2. Click on `Run All` to run all the tests in the project.
+2. Click on `Run All` to run all the tests in the project. (NB: If the form's content or structure changes, you'll need to modify the selectors and field filling actions in your test to reflect the new form.)
 
 Tests will execute, and results will be displayed in the `Test Explorer`.
 
