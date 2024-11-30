@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <NUnit>
+        <NumberOfTestWorkers>1</NumberOfTestWorkers>
+    </NUnit>
+    <Playwright>
+        <BrowserName>chromium</BrowserName>
+        <ExpectTimeout>30000</ExpectTimeout>
+        <LaunchOptions>
+            <Headless>false</Headless>
+            <SlowMo>500</SlowMo>
+        </LaunchOptions>
+        <Retries>3</Retries>
+    </Playwright>
+</RunSettings>
